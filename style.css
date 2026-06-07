@@ -327,10 +327,10 @@ nav a.active {
    ============================================ */
 
 .about-section {
-    padding: 20px 60px; 
+    padding: 200px 60px; 
     max-width: 1400px;
-    margin: 20 auto;
-    display: flex; flex-direction: column;
+    margin: 20 auto; margin-left: 250px;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
     gap: 30px;
     align-items: center;
 
