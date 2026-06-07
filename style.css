@@ -327,13 +327,19 @@ nav a.active {
    ============================================ */
 
 .about-section {
-    padding-top: 200px; padding-bottom: 200px; padding-left: 60px; padding-right: 60px;
-    max-width: 1400px;
-    margin: 50px; margin-left: 250px;
-    display: flex; flex-direction: column; justify-content: center; align-items: center;
-    gap: 30px;
-    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
 
+    max-width: 1400px;
+    margin: 50px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .about-image-wrap {
@@ -347,7 +353,9 @@ nav a.active {
     border-radius: 6px;
     border: 1px solid var(--border-color);
     filter: grayscale(20%) brightness(0.9);
-} /*footer suport*/
+}
+
+/*footer suport*/
 
 .about-text {
     flex: 1;
